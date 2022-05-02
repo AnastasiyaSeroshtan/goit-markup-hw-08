@@ -28,7 +28,7 @@
         <a class="logo header__logo link" href="" lang="en"
           ><span class="logo__text">Web</span>Studio</a
         >
-        <button class="header__mobile-menu-btn" type="button">
+        <button class="header__mobile-menu-btn" type="button" data-menu-button>
           <svg width="40" height="40">
             <use class="header__icon-menu-btn" href="./images/sprite.svg#icon-menu-btn"></use>
             <use
@@ -38,6 +38,66 @@
           </svg>
         </button>
         <!-- Навигация на другие страницы -->
+
+        <div class="mobile-menu" data-menu>
+          <nav class="navigation">
+            <ul class="nav-list list">
+              <li class="nav-list__item">
+                <a class="nav-list__link nav-list__link_active-page link" href="">Студия</a>
+              </li>
+              <li class="nav-list__item">
+                <a class="nav-list__link link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="nav-list__item">
+                <a class="nav-list__link link" href="">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contact-group">
+            <ul class="contact-list header__contact-list list">
+              <li class="contact-list__item link">
+                <a class="contact-list__link link" href="tel:+380961111111"> +38 096 111 11 11</a>
+              </li>
+              <li class="contact-list__item">
+                <a class="contact-list__link link" href="mailto:info@devstudio.com">
+                  info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="social-list list">
+              <li class="social-list__item link">
+                <a href="" class="social-list__link link">Instagram</a>
+              </li>
+              <li class="social-list__item link">
+                <a href="" class="social-list__link link">Twitter</a>
+              </li>
+              <li class="social-list__item link">
+                <a href="" class="social-list__link link">Facebook</a>
+              </li>
+              <li class="social-list__item link">
+                <a href="" class="social-list__link link">LinkedIn</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- <div class="container">
+        <a class="logo header__logo link" href="" lang="en"
+          ><span class="logo__text">Web</span>Studio</a
+        >
+        <button class="header__mobile-menu-btn" type="button">
+          <svg width="40" height="40">
+            <use class="header__icon-menu-btn" href="./images/sprite.svg#icon-menu-btn"></use>
+            <use
+              class="header__icon-menu-close-btn"
+              href="./images/sprite.svg#icon-menu-close-btn"
+            ></use>
+          </svg>
+        </button>
+       
+
         <div class="mobile-menu">
           <nav class="navigation">
             <ul class="nav-list list">
@@ -73,7 +133,7 @@
           </ul>
         </div>
       </div>
-    </header>
+     -->
     <!-- <main> -->
 
     <!-- Это герой!-->
@@ -576,6 +636,7 @@
       </div>
     </div>
 
+    <script src="./js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
