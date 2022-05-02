@@ -1,0 +1,120 @@
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+    border-bottom: 1px solid rgba(236, 236, 236, 1);
+
+    & > .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .container {
+      position: relative;
+    }
+    .header__mobile-menu-btn {
+      padding: 0;
+      background-color: transparent;
+      border: none;
+      line-height: 0;
+    }
+    .header__mobile-menu-btn:hover .header__icon-menu-btn,
+    .header__mobile-menu-btn:focus .header__icon-menu-btn {
+      fill: var(--accent-color);
+    }
+    .header__icon-menu-close-btn {
+      opacity: 0;
+    }
+  }
+  
+  // .nav-list {
+  //   display: flex;
+  //   align-items: center;
+  // }
+  
+  // .nav-list__item {
+  //   margin-right: 50px;
+
+  //   &:last-child {
+  //     margin-right: 0;
+  //   }
+  // }
+  
+  // .nav-list__link {
+  //   position: relative;
+  //   display: block;
+  //   padding-top: 32px;
+  //   padding-bottom: 32px;
+  //   @include font(14px, 500, 1.14);
+  //   letter-spacing: 0.02em;
+  //   transition: color var(--transition-duration) var(--transition-timing-function);
+
+  //   &:hover,
+  //   &:focus {
+  //     color: var(--accent-color);
+  //   }
+  // }
+  
+  // .nav-list__link_active-page {
+  //   color: var(--accent-color);
+
+  //   &::after {
+  //     position: absolute;
+  //     left: 0;
+  //     bottom: 0;
+  //     content: '';
+  //     display: block;
+  //     width: 100%;
+  //     height: 4px;
+  //     border-radius: 2px;
+  //     background-color: var(--accent-color);
+  //   }
+  // }
+  
+  // .contact-list {
+  //   display: flex;
+  //   align-items: center;
+  // }
+
+  // .header__contact-list {
+  //   margin-left: auto;
+  // }
+  
+  // .contact-list__item {
+  //   margin-right: 50px;
+
+  //   &:last-child {
+  //     margin-right: 0;
+  //   }
+  // }
+  
+  // .contact-list__link {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   padding-top: 32px;
+  //   padding-bottom: 32px;
+  //   @include font(14px, 500, 1.14);
+  //   letter-spacing: 0.02em;
+  //   color: var(--secondary-text-color);
+  
+  //   &:hover,
+  //   &:focus {
+  //     color: var(--accent-color);
+  //   }
+  // }
+  
+  // .contact-list__icon {
+  //   margin-right: 10px;
+  //   fill: var(--secondary-text-color);
+  //   transition: fill var(--transition-duration) var(--transition-timing-function);
+
+  //   .contact-list__link:hover &,
+  //   .contact-list__link:focus & {
+  //     fill: var(--accent-color);
+  //   }
+  // }
+  
+  

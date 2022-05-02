@@ -1,0 +1,5 @@
+.title {
+  @include font(36px, 400, 1.17);
+    margin-bottom: 50px;
+    text-align: center;
+  }
