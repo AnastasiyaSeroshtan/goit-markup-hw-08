@@ -42,11 +42,7 @@
 
 
 
-.contact-list__link_active-page {
-    @include font(34px, 500, 1.18);
-    letter-spacing: 0.02em;
-    color: var(--accent-color);
-}
+
 
 .social-list {
     display: flex;
