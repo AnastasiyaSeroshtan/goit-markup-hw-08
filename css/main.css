@@ -479,7 +479,6 @@ img {
 .header {
   position: relative;
   padding-top: 10px;
-  padding-bottom: 10px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -705,25 +704,65 @@ img {
 }
 
 .hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
   margin: 0 auto;
-  max-width: 1600px;
+  max-width: 480px;
   text-align: center;
   background-color: var(--dark-background-color);
-  background-image: linear-gradient(var(--bg-images-lianer-gradient), var(--bg-images-lianer-gradient)), url(../images/hero/bg-fon-hero.jpg);
+  background-image: linear-gradient(var(--bg-images-lianer-gradient), var(--bg-images-lianer-gradient)), url(../../images/hero/hero-bg-mobile.jpg);
   background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(var(--bg-images-lianer-gradient), var(--bg-images-lianer-gradient)), url(../../images/hero/hero-bg-mobile@2x.jpg);
+  }
 }
 
 .hero-title {
   margin-bottom: 30px;
-  font-size: 44px;
+  font-size: 26px;
   font-weight: 900;
-  line-height: 1.36;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--light-text-color);
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    max-width: 768px;
+    background-image: linear-gradient(var(--bg-images-lianer-gradient), var(--bg-images-lianer-gradient)), url(../../images/hero/hero-bg-tablet.jpg);
+  }
+}
+
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(var(--bg-images-lianer-gradient), var(--bg-images-lianer-gradient)), url(../../images/hero/hero-bg-tablet@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    max-width: 1600px;
+    background-image: linear-gradient(var(--bg-images-lianer-gradient), var(--bg-images-lianer-gradient)), url(../../images/hero/hero-bg-desktop.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(var(--bg-images-lianer-gradient), var(--bg-images-lianer-gradient)), url(../../images/hero/hero-bg-desktop@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+  }
 }
 
 .benefits {
