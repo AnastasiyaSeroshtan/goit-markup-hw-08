@@ -1,38 +1,71 @@
-.benefits {
-    padding-bottom: 0;
+.benefits-list__item {
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0;
   }
+}
+
+.benefits-list__icon {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background: var(--btn-portfolio-bg-color);
+}
+
+.benefits-list__title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  @include font(14px, 700, 1.14);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.benefits-list__description {
+  @include font(14px, 400, 1.71);
+  color: var(--secondary-text-color);
+ }
+ 
+
+
+
+
+
+// .benefits {
+//     padding-bottom: 0;
+//   }
   
-  .benefits-list {
-    display: flex;
-    margin-left: -30px;
-    margin-top: -30px;
-  }
+//   .benefits-list {
+//     display: flex;
+//     margin-left: -30px;
+//     margin-top: -30px;
+//   }
   
-  .benefits-list__item{
-    flex-basis: calc((100% - 120px) / 4);
-    margin-left: 30px;
-    margin-top: 30px;
-  }
+//   .benefits-list__item{
+//     flex-basis: calc((100% - 120px) / 4);
+//     margin-left: 30px;
+//     margin-top: 30px;
+//   }
   
-  .benefits-list__icon{
-    display: flex;
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-    border-radius: 4px;
-    justify-content: center;
-    align-items: center;
-    background: var(--btn-portfolio-bg-color);
-  }
+//   .benefits-list__icon{
+//     display: flex;
+//     width: 270px;
+//     height: 120px;
+//     margin-bottom: 30px;
+//     border-radius: 4px;
+//     justify-content: center;
+//     align-items: center;
+//     background: var(--btn-portfolio-bg-color);
+//   }
   
-  .benefits-list__title {
-    margin-bottom: 10px;
-    @include font(14px, 700, 1.14);
-    text-transform: uppercase;
-    text-align: left;
-  }
+//   .benefits-list__title {
+//     margin-bottom: 10px;
+//     @include font(14px, 700, 1.14);
+//     text-transform: uppercase;
+//     text-align: left;
+//   }
   
-  .benefits-list__description {
-    @include font(14px, 400, 1.71);
-    color: var(--secondary-text-color);
-  }
+//   .benefits-list__description {
+//     @include font(14px, 400, 1.71);
+//     color: var(--secondary-text-color);
+//   }
