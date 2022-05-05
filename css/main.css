@@ -93,21 +93,18 @@ img {
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
-    border: 1px solid red;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    border: 1px solid green;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    border: 1px solid blue;
   }
 }
 
@@ -546,6 +543,7 @@ img {
   border: none;
   line-height: 0;
   z-index: 10;
+  transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 
 .header__mobile-menu-btn:hover .header__icon-menu-btn,
@@ -572,6 +570,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  transition: color var(--transition-duration) var(--transition-timing-function);
 }
 
 .nav-list__link:hover, .nav-list__link:focus {
@@ -596,6 +595,7 @@ img {
   line-height: 1.16;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  transition: color var(--transition-duration) var(--transition-timing-function);
 }
 
 .contact-list__link:hover, .contact-list__link:focus {
@@ -702,10 +702,6 @@ img {
   .nav-list {
     margin-left: 93px;
   }
-  .nav-list__link:hover,
-  .nav-list__link:focus {
-    color: var(--accent-color);
-  }
   .contact-list {
     display: flex;
     align-items: center;
@@ -795,13 +791,13 @@ img {
 @media screen and (min-width: 1200px) {
   .hero {
     max-width: 1600px;
-    background-image: linear-gradient(var(--bg-images-lianer-gradient), var(--bg-images-lianer-gradient)), url(../../images/hero/hero-bg-desktop.jpg);
+    background-image: linear-gradient(var(--bg-images-lianer-gradient), var(--bg-images-lianer-gradient)), url(../../../goit-markup-hw-08/images/hero/hero-bg-desktop.jpg);
   }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(var(--bg-images-lianer-gradient), var(--bg-images-lianer-gradient)), url(../../images/hero/hero-bg-desktop@2x.jpg);
+    background-image: linear-gradient(var(--bg-images-lianer-gradient), var(--bg-images-lianer-gradient)), url(../../../goit-markup-hw-08/images/hero/hero-bg-desktop@2x.jpg);
   }
 }
 

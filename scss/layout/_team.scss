@@ -12,10 +12,10 @@
     }
 }
 
-  .team-list__wrapper {
+.team-list__wrapper {
     padding-bottom: 24px;
     background: var(--primary-background-color);
-  }
+}
 
 .team-list__title {
     margin-top: 30px;
@@ -30,6 +30,7 @@
     text-align: center;
     color: var(--secondary-text-color);
   }
+
 // 768px +
 @media screen and (min-width: 768px) {
     .team-list {
@@ -37,7 +38,6 @@
         flex-wrap: wrap;
         margin-left: -30px;
         margin-top: -30px;
-        
     }
 
     .team-list__item {
