@@ -1,8 +1,8 @@
-.portfolio-filter {
-    margin-bottom: 50px;
+  .portfolio-filter {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
+    margin-bottom: 40px;
   }
   
   .portfolio-filter__item {
@@ -12,7 +12,7 @@
       margin-left: 0;
     }
   }
-  
+   
   .portfolio-filter__btn {
     max-width: 145px;
     padding: 6px 22px;
@@ -40,3 +40,24 @@
     color: var(--light-text-color);
     background-color: var(--accent-color);
   }
+
+    // 768px +
+@media screen and (min-width: 768px) {
+  .portfolio-filter {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
+  // 1200px +
+@media screen and (min-width: 1200px) {
+  .portfolio-filter {
+    margin-bottom: 50px;
+  }
+
+}
+
+
+
+
+
