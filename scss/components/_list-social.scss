@@ -1,7 +1,6 @@
 .list-social {
     display: flex;
   justify-content: center;
-
   }
 
   .list-social__item {
@@ -18,6 +17,7 @@
     height: 44px;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
   }
 
   .list-social__icon {
@@ -31,17 +31,14 @@
   .list-social__icon_theme-light {
     fill: var(--light-text-color);
   }
-  
+
   .footer__list-social {
-    margin-left: 0;
-    margin-right: 0;
+    margin-bottom: 60px;
   }
-
-
+  
     // 1200px +
 @media screen and (min-width: 1200px) {
   .list-social__link {
-    border-radius: 50%;
     transition: background-color var(--transition-duration) var(--transition-timing-function);
 
     &:hover,
