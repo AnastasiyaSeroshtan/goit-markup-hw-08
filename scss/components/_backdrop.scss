@@ -5,6 +5,7 @@
     width: 100vw;
     height: 100vh;
     background: var(--bg-bd-modal);
+    z-index: 15;
     transition: transform var(--transition-duration) var(--transition-timing-function);
 
     &.is-hidden {
