@@ -38,6 +38,10 @@
   .benefits-list__item {
     flex-basis: calc((100% - 60px) / 2);
     margin-right: 30px;
+
+    &:last-child {
+      margin-bottom: 30px;
+    }
   }
 
   .benefits-list__title {

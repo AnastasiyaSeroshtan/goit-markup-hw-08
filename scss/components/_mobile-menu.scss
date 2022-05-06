@@ -21,7 +21,7 @@
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-  }
+}
 
 .header__mobile-menu-btn.is-active .header__icon-menu-btn {
     opacity: 0;
@@ -46,7 +46,7 @@
 .social-list__item {
     margin-right: 10px;
     margin-bottom: 10px;
-  }
+}
 
 .social-list__link {
     @include font(18px, 500, 1.22);
