@@ -93,21 +93,18 @@ img {
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
-    border: 1px solid red;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
     width: 768px;
-    border: 1px solid green;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    border: 1px solid blue;
   }
 }
 
@@ -799,13 +796,13 @@ img {
 @media screen and (min-width: 1200px) {
   .hero {
     max-width: 1600px;
-    background-image: linear-gradient(var(--bg-images-lianer-gradient), var(--bg-images-lianer-gradient)), url(../goit-markup-hw-08/images/hero/hero-bg-desktop.jpg);
+    background-image: linear-gradient(var(--bg-images-lianer-gradient), var(--bg-images-lianer-gradient)), url(../images/hero/hero-bg-desktop.jpg);
   }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(var(--bg-images-lianer-gradient), var(--bg-images-lianer-gradient)), url(../goit-markup-hw-08/images/hero/hero-bg-desktop@2x.jpg);
+    background-image: linear-gradient(var(--bg-images-lianer-gradient), var(--bg-images-lianer-gradient)), url(../images/hero/hero-bg-desktop@2x.jpg);
   }
 }
 
