@@ -1,6 +1,7 @@
 .header {
   position: relative;
   padding-top: 10px;
+  padding-bottom: 10px;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 
     & > .container {
@@ -78,9 +79,15 @@
 }
 
 .contact-list__link_active-page {
-  @include font(34px, 500, 1.18);
+  @include font(24px, 500, 1.18);
   letter-spacing: 0.02em;
   color: var(--accent-color);
+}
+
+@media screen and (min-width: 480px) {
+  .contact-list__link_active-page {
+    font-size: 34px;
+  }
 }
 
 @media screen and (max-width: 767px) {

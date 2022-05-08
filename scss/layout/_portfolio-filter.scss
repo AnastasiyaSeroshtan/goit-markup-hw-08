@@ -7,9 +7,11 @@
   
   .portfolio-filter__item {
     margin-right: 8px;
+    margin-bottom: 15px;
 
     &:last-child {
       margin-left: 0;
+      padding-bottom: 0;
     }
   }
    
@@ -46,6 +48,10 @@
   .portfolio-filter {
     justify-content: center;
     margin-bottom: 30px;
+  }
+
+  .portfolio-filter__item {
+    margin-bottom: 0;
   }
 }
 

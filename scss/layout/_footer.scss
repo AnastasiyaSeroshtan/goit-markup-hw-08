@@ -13,10 +13,6 @@
 
 .address__item {
   margin-bottom: 8px;
-
-  &:last-child {
-    margin-bottom: 60px;
-  }
 }
 
 .address__link {
@@ -28,6 +24,11 @@
   color: var(--footer-contact-link-color);
 }
 
+.subscription-wrapper {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 // 768px +
 @media screen and (min-width: 768px) {
   .footer > .container {
@@ -35,6 +36,11 @@
     align-items: baseline;
     justify-content: space-around;
     flex-wrap: wrap;
+  }
+
+  .subscription-wrapper {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 

@@ -31,16 +31,15 @@
   .benefits-list {
     display: flex;
     flex-wrap: wrap;
-    margin-right: -30px;
-    margin-bottom: -30px;
+    margin: -15px;
   }
 
   .benefits-list__item {
     flex-basis: calc((100% - 60px) / 2);
-    margin-right: 30px;
+    margin: 15px;
 
     &:last-child {
-      margin-bottom: 30px;
+      margin-bottom: 15px;
     }
   }
 
@@ -51,6 +50,10 @@
 
  // 1200 +
  @media screen and (min-width: 1200px) {
+  .section__benefits {
+    padding-bottom: 0;
+  }
+
   .benefits-list__item{
     flex-basis: calc((100% - 120px) / 4);
   }
